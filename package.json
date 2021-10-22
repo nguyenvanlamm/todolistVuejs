@@ -5,11 +5,16 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "svg": "vsvg -s /path/to/svg/source -t /path/to/icon/components"
   },
   "dependencies": {
+    "@mdi/js": "^6.3.95",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "mdi-vue": "^3.0.8",
+    "v-viewer": "^1.6.4",
+    "vue": "^2.6.11",
+    "vue-svgicon": "^3.2.9"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
